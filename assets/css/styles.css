@@ -446,12 +446,17 @@ img {
 }
 
 /* ===== MEDIA QUERIES=====*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 390px) {
   .home {
     row-gap: 2rem;
   }
   .home__img {
     width: 200px;
+  }
+  .container {
+    margin: 0 auto;
+    width: 80%;
+    height: 300px;
   }
 }
 
@@ -495,6 +500,7 @@ img {
   .contact__container {
     justify-items: center;
   }
+  
 }
 
 @media screen and (min-width: 768px) {
